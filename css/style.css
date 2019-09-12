@@ -1671,6 +1671,14 @@ body{
         height: auto;
     }
     
+    .posts-item-text{
+        margin: 2% 5%; 
+    }
+    
+    .posts-item-link{
+        margin: 0 0 5% 5%;
+    }
+    
     .partners{
         padding: 4% 0;
         margin: 3% 0 0 0;
@@ -1706,5 +1714,4 @@ body{
     .copyright-first .copyright-link:after{
         display: none;
     }
-    
 }
