@@ -1550,7 +1550,6 @@ body{
         transition: margin 350ms linear, padding 350ms linear, font-size 350ms linear;
     }
     
-    
     .menu-btn-checkbox:checked ~ .header-wrapper-nav > .header-wrapper-nav-link{
         font-size: 14px;
         margin: 1% 1%;
@@ -1579,6 +1578,16 @@ body{
         display: none;
     }
     
+    .aside-title{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .aside-text{
+        font-size: 14px;
+        text-align: center;
+    }
+    
     .projects-nav{
         flex-wrap: wrap;
     }
@@ -1595,27 +1604,40 @@ body{
         display: none;
     }
     
-
     .device{
         min-height: 0;
         background: url(../img/mobile-img.png) bottom left 3%/ 32% no-repeat #fbfaf8;
     }
 
-    
     .device-content{
         margin: 5% 0 0 0;
     }
     
     .device-content-title {
         text-align: center;
+        font-size: 20px;
     }
     
     .device-content-text{
         text-align: justify;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 2% 2%;
     }
     
     .device-content-spoiler{
         margin: 0 0 12px 35%;
+        
+    }
+    
+    .device-content-spoiler-text,
+    .device-content-spoiler-hidden{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .device-content-spoiler-hidden{
+        margin: 0 0 0 33px;
     }
     
     .statistics{
